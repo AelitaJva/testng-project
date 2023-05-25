@@ -18,32 +18,33 @@ public class BaseTest {
     WebDriver driver;
 
     @BeforeMethod
-    public void setUp()  throws  MalformedURLException{
-        driver = getCloudDriver();
+    public void setUp() throws MalformedURLException {
+
+        String platform = "Cloud";
+
+        if (platform.equals("Local")) {
+            getLocalDriver();
+        } else {
+            getCloudDriver();
+        }
+
         driver.get("http://www.google.com");
     }
 
-    public WebDriver getCloudDriver () throws MalformedURLException {
+    public void getCloudDriver() throws MalformedURLException {
+        String URL = "https://" + "aelitazheldenova_7yL5RD" + ":" + "hwHfNSAvsP5kwseJNZcU" + "@hub-cloud.browserstack.com/wd/hub";
         ChromeOptions browserOptions = new ChromeOptions();
         browserOptions.setPlatformName("Windows 11");
         browserOptions.setBrowserVersion("latest");
-        Map<String, Object> sauceOptions = new HashMap<>();
-        sauceOptions.put("username", "oauth-nyc.aelita-16dbb");
-        sauceOptions.put("accessKey", "76523000-2b12-4606-aeed-ba7d0fb486f7");
-        sauceOptions.put("build", "myBuild");
-        sauceOptions.put("name", "Chrome Browser Parallel Execution,");
-        browserOptions.setCapability("sauce:options", sauceOptions);
 
-        URL url = new URL("https://oauth-nyc.aelita-16dbb:76523000-2b12-4606-aeed-ba7d0fb486f7@ondemand.eu-central-1.saucelabs.com:443/wd/hub");
-        WebDriver driver = new RemoteWebDriver(url, browserOptions);
-
-        return driver;
+        URL url = new URL(URL);
+        driver = new RemoteWebDriver(url, browserOptions);
     }
 
-    public WebDriver getLocalDriver () {
+    public void getLocalDriver() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        return driver;
+        driver = new ChromeDriver();
+
     }
 
     @AfterMethod
