@@ -11,14 +11,11 @@ public class DataDrivenTest {
 
     @Test(dataProvider =  "invalidData")
     public void verifyLoginUnsuccessfulWithInvalidCredentials (String username, String password) {
-
         // Testing the method with Test Data
         boolean result = loginFeature.doLogin(username, password);
-
         // Checking the output
         Assert.assertEquals(result, false);
     }
-
 
     @DataProvider(name = "invalidData")
     public Object [][] getData () {
@@ -34,7 +31,6 @@ public class DataDrivenTest {
         };
         return credentials;
     }
-
     @Test
     public void verifyLoginSuccessfulWithValidCredentials () {
 
