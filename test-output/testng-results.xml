@@ -1,169 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="50" started-at="2023-05-25T13:13:08Z" finished-at="2023-05-25T13:13:08Z">
+  <suite name="Default Suite" duration-ms="1083" started-at="2023-05-26T18:06:43Z" finished-at="2023-05-26T18:06:44Z">
     <groups>
     </groups>
-    <test name="TestNG-Class" duration-ms="50" started-at="2023-05-25T13:13:08Z" finished-at="2023-05-25T13:13:08Z">
-      <class name="com.automation.testcases.DataDrivenTest">
-        <test-method status="PASS" signature="verifyLoginSuccessfulWithValidCredentials()[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginSuccessfulWithValidCredentials" duration-ms="9" started-at="2023-05-25T13:13:08Z" finished-at="2023-05-25T13:13:08Z">
+    <test name="TestNG-Class" duration-ms="1083" started-at="2023-05-26T18:06:43Z" finished-at="2023-05-26T18:06:44Z">
+      <class name="com.automation.testcases.DataDrivenTestExcel">
+        <test-method status="PASS" signature="verifyLoginSuccessfulWithValidCredentials()[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginSuccessfulWithValidCredentials" duration-ms="10" started-at="2023-05-26T18:06:43Z" finished-at="2023-05-26T18:06:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginSuccessfulWithValidCredentials -->
-        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="2" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="2" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Aelita]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[Jeldenova]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[Adelina]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Jeldenova]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chirag]]>
+                <![CDATA[Anjelina]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[Eldiyarova]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="1" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Bekjan]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Jeldenov]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="1" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Danis]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[devx@123]]>
+                <![CDATA[Jeldenov]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Arsen]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[Nizarov]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-        <test-method status="FAIL" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTest@73f792cf]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="2" started-at="2023-05-25T13:13:08Z" data-provider="invalidData" finished-at="2023-05-25T13:13:08Z">
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="1" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Zaina]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin@123]]>
+                <![CDATA[Usupova]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at com.automation.testcases.DataDrivenTest.verifyLoginUnsuccessfulWithInvalidCredentials(DataDrivenTest.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
-      </class> <!-- com.automation.testcases.DataDrivenTest -->
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeldenova]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arslan ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nizarov]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
+        <test-method status="PASS" signature="verifyLoginUnsuccessfulWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testcases.DataDrivenTestExcel@5d624da6]" name="verifyLoginUnsuccessfulWithInvalidCredentials" duration-ms="0" started-at="2023-05-26T18:06:44Z" data-provider="invalidData" finished-at="2023-05-26T18:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jelden]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Usupova]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
+      </class> <!-- com.automation.testcases.DataDrivenTestExcel -->
     </test> <!-- TestNG-Class -->
   </suite> <!-- Default Suite -->
 </testng-results>

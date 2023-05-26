@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="TestNG-Class(failed)">
     <classes>
-      <class name="com.automation.testcases.DataDrivenTest">
+      <class name="com.automation.testcases.DataDrivenTestExcel">
         <methods>
-          <include name="verifyLoginUnsuccessfulWithInvalidCredentials" invocation-numbers="6"/>
+          <include name="verifyLoginUnsuccessfulWithInvalidCredentials" invocation-numbers="7 8 9"/>
         </methods>
-      </class> <!-- com.automation.testcases.DataDrivenTest -->
+      </class> <!-- com.automation.testcases.DataDrivenTestExcel -->
     </classes>
   </test> <!-- TestNG-Class(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
